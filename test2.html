@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celeste Software Ltd</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.10.37/build/spline-viewer.js"
+    ></script>
+  </head>
+
+  <body>
+    <header class="top-bar">
+      <div class="logo">Celeste Software Ltd</div>
+      <div class="nav-wrapper">
+        <nav class="nav-container">
+          <a href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#products">Our Products</a>
+          <a href="#contact">Contact Us</a>
+        </nav>
+      </div>
+      <a href="#contact"
+        ><button class="contact-button">Stay Up to Date</button></a
+      >
+      <button class="menu-toggle" onclick="toggleModal()">Menu</button>
+    </header>
+
+    <div class="modal-overlay" id="modalMenu">
+      <div class="modal-menu">
+        <a href="#home" onclick="toggleModal()">Home</a>
+        <a href="#about" onclick="toggleModal()">About Us</a>
+        <a href="#products" onclick="toggleModal()">Our Products</a>
+        <a href="#contact" onclick="toggleModal()">Contact Us</a>
+        <button class="close-modal" onclick="toggleModal()">Close</button>
+      </div>
+    </div>
+
+    <section class="glow-section" id="home">
+      <div class="hero-content">
+        <h2>The Future with Web3, AI & XR-</h2>
+        <div class="rotating-wrapper">
+          <div class="rotating-text">
+            <span>Intelligent</span>
+            <span>Scalable</span>
+            <span>Limitless</span>
+          </div>
+        </div>
+        <p>
+          We build smart software that makes technology work for you —
+          Artificial Intelligence (AI) helps you think and work faster, Extended
+          Reality (XR) blends digital experiences with the real world, and Web3
+          creates a safer, more independent internet.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="about-container">
+        <div class="about-content">
+          <h2 class="about-heading">
+            We’re <span class="highlight">Celeste</span>. Shaping What's Next.
+          </h2>
+          <p class="about-paragraph">
+            At Celeste Software LTD, we don’t just follow technology trends—we
+            create them. Our SaaS products harness the power of Artificial
+            Intelligence (AI), Extended Reality (XR), and Web3 to redefine how
+            businesses and individuals interact with the digital world.<br /><br />
+            We’re building intelligent, scalable, and future-ready solutions
+            that make work smarter, experiences more immersive, and the internet
+            more open and secure. Innovation drives us, and we’re just getting
+            started.<br /><br />
+            Join us as we shape the next generation of technology.
+          </p>
+        </div>
+        <spline-viewer
+          url="https://prod.spline.design/2MHYgo9NAfmojqyK/scene.splinecode"
+          interaction-controls="none"
+          interaction-prompt="none"
+        >
+        </spline-viewer>
+      </div>
+    </section>
+
+    <section id="our-focus" class="section">
+      <h2>Our Focus: <span>AI, XR & Web3</span></h2>
+      <div class="focus-rectangles two-column">
+        <div class="focus-rectangle">
+          <div class="home_aspects_card_number">01</div>
+          <h3>Artificial Intelligence</h3>
+          <p>
+            Artificial Intelligence (AI) isn’t just about automation—it’s about
+            unlocking potential. At Celeste Software LTD, we are developing
+            AI-powered products that help businesses make smarter decisions,
+            streamline operations, and create more personalized user
+            experiences.<br /><br />
+            Our AI solutions analyze vast amounts of data in real time, adapt to
+            changing needs, and enhance efficiency across industries. Whether
+            it’s automating repetitive tasks, improving customer interactions,
+            or uncovering hidden insights, we build AI-driven technology that
+            delivers real, measurable impact.<br /><br />
+            With AI at the core of our innovation, we’re not just keeping up
+            with the future— we’re shaping it.
+          </p>
+          <svg
+            class="ai-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M32 2C19.297 2 9 12.297 9 25v14c0 12.703 10.297 23 23 23s23-10.297 23-23V25C55 12.297 44.703 2 32 2zm13 35a3 3 0 110 6 3 3 0 010-6zm-26 0a3 3 0 110 6 3 3 0 010-6zm26.82-7.876l-3.53-1.531a.75.75 0 00-.84.194l-2.7 3.275a.75.75 0 01-1.19 0l-2.7-3.275a.75.75 0 00-.84-.193l-3.53 1.531a.75.75 0 00-.435.723v3.06a.75.75 0 001.057.69l2.984-1.48v7.186a.75.75 0 001.5 0v-7.186l2.984 1.48a.75.75 0 001.056-.69v-3.06a.75.75 0 00-.434-.723z"
+            />
+          </svg>
+        </div>
+
+        <div class="focus-rectangle">
+          <svg
+            class="ai-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M32 2C19.297 2 9 12.297 9 25v14c0 12.703 10.297 23 23 23s23-10.297 23-23V25C55 12.297 44.703 2 32 2zm13 35a3 3 0 110 6 3 3 0 010-6zm-26 0a3 3 0 110 6 3 3 0 010-6zm26.82-7.876l-3.53-1.531a.75.75 0 00-.84.194l-2.7 3.275a.75.75 0 01-1.19 0l-2.7-3.275a.75.75 0 00-.84-.193l-3.53 1.531a.75.75 0 00-.435.723v3.06a.75.75 0 001.057.69l2.984-1.48v7.186a.75.75 0 001.5 0v-7.186l2.984 1.48a.75.75 0 001.056-.69v-3.06a.75.75 0 00-.434-.723z"
+            />
+          </svg>
+          <div class="home_aspects_card_number">02</div>
+          <h3>Extended reality</h3>
+          <p>
+            Technology shouldn’t just be used—it should be experienced. At
+            Celeste Software LTD, we’re building Extended Reality (XR) solutions
+            that make digital interactions more natural, engaging, and
+            immersive.<br /><br />
+            With Augmented Reality (AR), we enhance the real world by overlaying
+            digital elements—helping businesses create interactive shopping
+            experiences, immersive training, and more. Virtual Reality (VR) goes
+            a step further, transporting users into fully digital environments
+            for gaming, simulations, and next-level storytelling.<br /><br />
+            From virtual showrooms to hands-on training in a digital space, XR
+            is reshaping industries, and we’re here to lead that transformation.
+          </p>
+        </div>
+      </div>
+
+      <!-- New Horizontal Rectangle Underneath -->
+      <div class="focus-rectangle horizontal-rectangle">
+        <div class="home_aspects_card_number">03</div>
+        <h3>Web3 & Decentralization</h3>
+        <p class="half-width-text">
+          The internet is evolving—Web3 is making it more secure, transparent,
+          and user-owned. At Celeste Software LTD, we’re building decentralized
+          applications (dApps) that return control to the user.<br /><br />
+          From blockchain-powered finance to secure identity systems and
+          decentralized content platforms, our Web3 tools give users sovereignty
+          over their data and interactions.<br /><br />
+          We believe the future of the internet is open, trustless, and
+          permissionless—and we’re helping build that future, one line of code
+          at a time.
+        </p>
+      </div>
+      <div class="button-row">
+        <a href="#products" class="contact-button">See Our Products</a>
+        <a href="#subscribe" class="contact-button">Stay Up to Date</a>
+      </div>
+    </section>
+    <section class="section testimonial-section">
+      <h2 class="testimonial-heading">
+        What our clients think of <span class="highlight">Celeste</span>
+      </h2>
+      <p class="testimonial-subtext">
+        Helping businesses grow with technology that truly makes a difference.
+      </p>
+      <div class="testimonial-slider">
+        <div class="testimonial-track" id="testimonialTrack">
+          <div class="testimonial-slide">
+            <p class="testimonial-text">
+              The XR solutions from
+              <span class="highlight-blue">Celeste</span> completely transformed
+              our customer experience. Our clients now engage with our products
+              in ways we never thought possible.
+            </p>
+            <p class="testimonial-name">Michael Hayes</p>
+            <p class="testimonial-title">Product Manager</p>
+          </div>
+          <div class="testimonial-slide">
+            <p class="testimonial-text">
+              <span class="highlight-blue">Celeste</span> Software helped us
+              automate complex tasks, saving time and reducing costs. Their
+              AI-driven solutions have been a game-changer for our business.
+            </p>
+            <p class="testimonial-name">Emily Carter</p>
+            <p class="testimonial-title">Operations Director</p>
+          </div>
+          <div class="testimonial-slide">
+            <p class="testimonial-text">
+              Their AI-powered insights and pipelines allowed us to make
+              data-driven decisions with confidence. The impact on our business
+              has been incredible.
+            </p>
+            <p class="testimonial-name">Rachel Thompson</p>
+            <p class="testimonial-title">Marketing Lead</p>
+          </div>
+          <div class="testimonial-slide">
+            <p class="testimonial-text">
+              Working with <span class="highlight-blue">Celeste</span> Software
+              was a seamless experience. Their technology and strategic approach
+              helped us stay ahead of the competition.
+            </p>
+            <p class="testimonial-name">Daniella Wong</p>
+            <p class="testimonial-title">CTO</p>
+          </div>
+        </div>
+        <button class="arrow left" onclick="moveLeft(-1)">&#10094;</button>
+        <button class="arrow right" onclick="moveRight(1)">&#10095;</button>
+        <div class="dots" id="testimonialDots"></div>
+      </div>
+    </section>
+    <section class="cta-section">
+  <h2 class="cta-heading">Let's get to <span class="blue-text">work.</span></h2>
+  <p class="cta-subtext">Innovative technology. Real results. Let’s build something great together.</p>
+  <button class="cta-button">Stay up to date</button>
+</section>
+
+<footer class="footer">
+  <div class="footer-column">
+    <h3 class="footer-title">Company</h3>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Our Products</a></li>
+    </ul>
+  </div>
+  <div class="footer-column">
+    <h3 class="footer-title">Services</h3>
+    <ul>
+      <li><a href="#">Web Design and Development</a></li>
+      <li><a href="#">App Design and Development</a></li>
+      <li><a href="#">Software Development</a></li>
+      <li><a href="#">Web3 Design and Development</a></li>
+    </ul>
+  </div>
+  <div class="footer-column contact-column">
+    <h3 class="footer-title">Contact</h3>
+    <p>We’d love to hear from you. Let’s<br>connect and make things happen.</p>
+    <p><a href="mailto:contact@celestesoftwareltd.com">contact@celestesoftwareltd.com</a><br>+2347083088032</p>
+  </div>
+</footer>
+
+
+
+    <footer>&copy; 2025 Celeste Software Ltd. All rights reserved.</footer>
+
+    <script>
+      function toggleModal() {
+        const modal = document.getElementById("modalMenu");
+        modal.style.display = modal.style.display === "flex" ? "none" : "flex";
+      }
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const track = document.getElementById("testimonialTrack");
+        let isMoving = false;
+
+        function moveRight() {
+          if (isMoving) return;
+          isMoving = true;
+
+          const firstSlide = track.firstElementChild;
+          const slideWidth = firstSlide.offsetWidth + 10;
+
+          track.style.transition = "transform 0.5s ease";
+          track.style.transform = `translateX(-${slideWidth}px)`;
+
+          setTimeout(() => {
+            track.appendChild(firstSlide);
+            track.style.transition = "none";
+            track.style.transform = "translateX(0)";
+            isMoving = false;
+          }, 500);
+        }
+
+        function moveLeft() {
+          if (isMoving) return;
+          isMoving = true;
+
+          const slides = track.children;
+          const lastSlide = slides[slides.length - 1];
+          const slideWidth = lastSlide.offsetWidth + 10;
+
+          track.style.transition = "none";
+          track.insertBefore(lastSlide, slides[0]);
+          track.style.transform = `translateX(-${slideWidth}px)`;
+
+          setTimeout(() => {
+            track.style.transition = "transform 0.5s ease";
+            track.style.transform = "translateX(0)";
+          }, 10);
+
+          setTimeout(() => {
+            isMoving = false;
+          }, 500);
+        }
+
+        // Attach to global so HTML onclick handlers can use them
+        window.moveLeft = moveLeft;
+        window.moveRight = moveRight;
+      });
+    </script>
+  </body>
+</html>
